@@ -1,4 +1,4 @@
-import '@/common-utils/nodejs/logger';
+import 'common-utils/dist/nodejs/logger';
 import run from '@/cli/run';
 import app from '@/app';
 import appCli from '@/app.cli';

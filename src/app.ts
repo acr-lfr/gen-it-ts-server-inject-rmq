@@ -1,6 +1,6 @@
 import packageJson from 'package.json'
 import http, { Http } from '@/http';
-import httpExceptionErrorHandler from '@/common-utils/expressMiddleware/httpExceptionErrorHandler';
+import { httpExceptionErrorHandler } from 'common-utils';
 import RabbitMQService from '@/events/rabbitMQ/RabbitMQService';
 import startup from '@/utils/startup';
 

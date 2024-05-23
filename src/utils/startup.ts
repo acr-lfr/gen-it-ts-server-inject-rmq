@@ -1,5 +1,5 @@
 import connect from 'async-redis-shared/connect';
-import { fetchAndEmitPermissions, rabbitMQErrorHandler } from 'common-utils/dist';
+import { fetchAndEmitPermissions, rabbitMQErrorHandler } from 'common-utils';
 import config from '@/config';
 import RabbitMQService from '@/events/rabbitMQ/RabbitMQService';
 import packageJson from '../../package.json';

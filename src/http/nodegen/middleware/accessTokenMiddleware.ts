@@ -1,6 +1,5 @@
 import express = require('express');
-import { AccessTokenService  } from "common-utils/dist";
-import { ValidateRequestOptions } from 'common-utils/dist/expressMiddleware/AccessTokenService';
+import { AccessTokenService, ValidateRequestOptions } from "common-utils";
 import config from '@/config';
 import NodegenRequest from '@/http/interfaces/NodegenRequest';
 
