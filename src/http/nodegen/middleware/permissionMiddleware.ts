@@ -1,5 +1,5 @@
 import express = require('express');
-import { PermissionHandlerService } from 'common-utils';
+import { PermissionHandlerService } from '@/common-utils/expressMiddleware';
 import RolesPermissionsCache from '@/cache/RolesPermissionsCache';
 import { ForbiddenException } from '@/http/nodegen/errors';
 import NodegenRequest from '@/http/nodegen/interfaces/NodegenRequest';
