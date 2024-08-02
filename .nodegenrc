@@ -21,6 +21,9 @@
     },
     {
       "source": "https://github.com/acr-lfr/gen-it-ts-server-inject-rmq.git"
+    },
+    {
+      "source": "../../../common-utils/"
     }
   ]
 }
