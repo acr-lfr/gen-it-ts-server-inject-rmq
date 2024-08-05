@@ -3,17 +3,18 @@
     "generate:rabbitmq": "generate-it ../../rabbitmq/asyncapi/release/event_spec.yml -y -t https://github.com/acrontum/generate-it-asyncapi-rabbitmq-fanout.git -o src/events"
   },
   "dependencies": {
-    "amqplib": "^0.10.3",
+    "amqplib": "^0.10.4",
     "async-redis-shared": "^0.2.1",
-    "cli-color": "^2.0.3",
+    "cli-color": "^2.0.4",
     "distributed-systems-cache": "^1.14.0",
+    "fs-extra": "^11.2.0",
+    "picomatch": "^4.0.2",
     "proc-env-helper": "^1.0.3",
-    "picomatch": "^2.3.1",
     "q-wrapper": "^1.0.8"
   },
   "devDependencies": {
-    "@types/amqplib": "^0.10.0",
-    "@types/cli-color": "^2.0.3",
-    "@types/picomatch": "^2.3.0"
+    "@types/amqplib": "^0.10.5",
+    "@types/cli-color": "^2.0.6",
+    "@types/picomatch": "^3.0.0"
   }
 }
