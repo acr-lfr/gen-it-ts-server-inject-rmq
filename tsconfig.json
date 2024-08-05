@@ -18,7 +18,7 @@
         "src/*"
       ],
       "@/common-utils/*": [
-        "src/common-utils/*"
+        "src/http/common-utils/*"
       ]
     },
   }
