@@ -10,7 +10,7 @@
     "fs-extra": "^11.2.0",
     "picomatch": "^4.0.2",
     "proc-env-helper": "^1.0.3",
-    "q-wrapper": "^1.0.8"
+    "q-wrapper": "^1.0.8",
     "source-map-support": "^0.5.21"
   },
   "devDependencies": {
