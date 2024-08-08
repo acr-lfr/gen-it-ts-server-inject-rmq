@@ -1,3 +1,4 @@
+import 'source-map-support/register';
 import '@/common-utils/nodejs/logger';
 import run from '@/cli/run';
 import app from '@/app';
